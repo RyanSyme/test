@@ -154,7 +154,8 @@ a:hover {
 	display: block;
 	padding-top:55px;
 	clear: both;
-	margin-left:4px;
+    margin-left:4px;
+    justify-content: center;
 }
 
 h1  {
@@ -315,7 +316,13 @@ ul.info {
 	float:right;
 	width:500px;
 	margin-left:40px;
-	list-style-type: none; 
+	list-style-type: disc; 
+}
+
+.smaller>li {
+    margin-top: 3px !important;
+    margin-left: 15px !important;
+    /* list-style-type: disc !important; */
 }
 
 ul.info li {
@@ -404,8 +411,7 @@ img.portrait {
 
 .self {
 	width:250px;
-	float:left;
-	padding-top:11px;
+	padding-left:200px;
 	margin-left:38px;
 	margin-bottom:15px;
 }
@@ -432,12 +438,13 @@ img.portrait {
 
 .self ul li {
 	background-repeat: no-repeat;
-	padding-left:26px;
 	background-position: 0 .1em;
 	height:25px;
 	display:block;
 	margin-top:-2px;
 }
+
+
 
 /* SOCIAL ICONS */
 /* ----------------------------------------- */
