@@ -349,6 +349,10 @@ ul.skills {
 	
 }
 
+.skills-end {
+    margin-bottom: 50px;
+}
+
 ul.skills li {
 	margin:0;
 	padding:0;
