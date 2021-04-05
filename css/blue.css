@@ -50,14 +50,18 @@ blockquote, q {
 /* LAYOUT */
 /* ----------------------------------------- */
 
+html {
+    background-color: #e2e2e2;
+}
+
 body {
 	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
-	background-color: #e1e0db;
+	background-color: #e2e2e2;
 	background-image: url(../images/bg.jpg);
 	background-repeat: repeat;
 	font-size:13px;
 	line-height: 17px;
-	color:#000;
+	color: #2b2d42;
 }
 
 .contact {
@@ -152,11 +156,20 @@ a:hover {
 .entry {
 	width:720px;
 	display: block;
-	padding-top:55px;
+	padding-top:80px;
 	clear: both;
     margin-left:4px;
     justify-content: center;
 }
+
+.employment-entry {
+    padding-top:120px !important;
+    padding-bottom:165px !important;
+}
+
+/* .education-entry {
+    padding-top:80px !important;
+} */
 
 h1  {
 	width:250px;
